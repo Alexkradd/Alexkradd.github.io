@@ -1,0 +1,38 @@
+.home-page{
+    background-image: url(../img/background-home.jpg) ;
+    background-position: center center;
+}
+.logo{
+    padding-top: 10px;
+    display: block;
+}
+.nav{
+    margin-left: auto;
+
+}
+.nav-list{
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    list-style: none;
+    position: relative;
+
+}
+.nav-link{
+    display: block;
+    padding: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.burger-home{
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+.burger-home-img{
+    display: block;
+}
