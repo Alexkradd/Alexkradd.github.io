@@ -1,9 +1,11 @@
-.home-page{
+.header{
     background-image: url(../img/background-home.jpg) ;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.logo{
-    padding-top: 10px;
+.header__logo{
+    margin-top: 16px;
     display: block;
 }
 .nav{
@@ -23,16 +25,76 @@
 }
 .nav-link{
     display: block;
-    padding: 13px;
+    margin-top: 41px;
+    padding: 0 20px 0 16px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    font-weight: 500;
     color: #ffffff;
 }
-.burger-home{
-    padding-bottom: 100px;
-    padding-top: 25px;
-}
-.burger-home-img{
+.nav-item::before{
+    content: "";
     display: block;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.nav-item:last-child .nav-link{
+    padding-right: 15px;
+}
+.nav-item:last-child::before{
+    content: none;
+}
+
+.button{
+    display: block;
+    background-color: #e45028;
+    height: 35px;
+    width: 98px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+
+
+}
+.burger-header{
+    margin-bottom: 90px;
+    display: flex;
+    margin-top: -7px;
+
+}
+.burger-header-img{
+    margin-left: 15px;
+
+
+}
+.burger-header__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    margin-left: 11px;
+}
+.burger-header__text__top-line{
+    font-family: gagalinregular;
+    font-size: 72px;
+    color: #f9b43b;
+    margin-bottom: 10px;
+
+}
+.burger-header__text__bottom-line{
+    font-family: lifehackmedium;
+    font-size: 65px;
+    color: #ffffff;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+.arrow-scroll{
+    margin-bottom: 38px;
+
 }
